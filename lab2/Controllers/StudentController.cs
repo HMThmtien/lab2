@@ -4,7 +4,6 @@ using ThucHanh_2.Models;
 
 namespace ThucHanh_2.Controllers
 {
-    
     public class StudentController : Controller
     {
         private List<Student> listStudents = new List<Student>();
