@@ -3,8 +3,7 @@
     public class Student
     {
         [Display(Name ="Mã sinh viên")]
-        public int Id { get; set; }//Mã sinh viên
-
+        public int Id { get; set; }
         [Display(Name = "Họ và tên")]
         [Required(ErrorMessage = "Họ tên bắt buộc phải được nhập và tối thiểu 4 ký tự, tối đa 100 ký tự")]
         [StringLength(100, MinimumLength = 4)]
